@@ -1,0 +1,9 @@
+%common-styles {
+  font-weight: bold;
+  color: #333;
+}
+
+.button {
+  @extend %common-styles;
+  background-color: #ff5733;
+}
